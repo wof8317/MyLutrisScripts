@@ -25,6 +25,6 @@ sed -i "s/FullscreenViewportY.*/FullscreenViewportY=$height/g" Default.ini
 sed -i "s/UseVSync=False/UseVSync=True/g" Default.ini
 sed -i "s/UseDefaultDriver=True/UseDefaultDriver=False/g" Default.ini
 
-cd ..
+cd ../..
 
 rm -f -r __redist __support tmp goggame-1207658677.* app commonappdata
